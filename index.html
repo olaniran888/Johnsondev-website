@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="15x15" href="images/pic_bulb on.gif">
+
+
+</head>
+
+
+<body>
+  <div>
+    <form method="post" action="Registration Form">
+      <h1 class="reg">Registration Form</h1>
+      <p class="fil">Please fill out this form with the required information</p>
+      <br>
+      <label for="fName">Enter Your First Name:</label><br>
+      <input required="" name="first-name" type="text"><br><br>
+
+      <label for="lName">Enter Your Last Name:</label><br>
+      <input required="" name="last-name" type="text"><br><br>
+
+      <label for="email">Enter Your E-mail:</label><br>
+      <input required="" name="email" type="text"><br><br>
+      
+      <label for="nPass">Create a New Password:</label><br>
+      <input required="" name="password" minlength="8" type="password">
+      <br>
+      <br>
+      <br>
+      <hr>
+      <p style="margin-top: 5px;">Account type (required):</p>
+      <br>
+      <input name="account-type" type="radio">
+      <label for="personal">Personal</label><br><br>
+      <input name="account-type" type="radio">
+      <label for="biz">Business</label>
+      <br><br>
+      <hr>
+      <br><br>
+      <label for="pic">Uplaod a Profile Picture:</label>
+      <br><br>
+      <input required=""  name="file" type="file">
+
+      <br><br>
+      <label for="age">Input Your age (years):</label>
+      <br>
+      <input required="" name="age" min="20" max="100" type="number">
+      <br><br>
+
+      <label for="about">How did you hear about us?</label>
+      <br>
+      <select name="referrer">
+      <option value="">(select one)</option>
+      <option value="1">freeCodeCamp News</option>
+      <option value="2">freeCodeCamp YouTube Channel</option>
+      <option value="3">Sign board</option>
+      <option value="4">Other</option>
+      </select>
+      <br><br>
+
+      <label for="bio">Provide a bio:</label>
+      <br>
+      <textarea name="bio" placeholder="I like coding on the beach..." cols="48" rows="5"></textarea>
+      <br><br>
+
+      <input name="terms" type="checkbox">
+      <label for="terms">I accept the <a href="#">terms and conditions</a></label>
+      <br><br>
+
+      <br><br>
+
+<div id="btn">
+  <button >Submit</button>
+</div>
+
+
+      <br><br><br>
+
+    </form>
+  </div>
+
+  
+  <!-- JavaScript Code -->
+  
+  <!-- <p></p>
+  <hr>
+
+
+  <h2> <span style="color: red;"> Note</span>: Below are JavaScript Code</h2>
+
+
+
+  <p id="deem"></p>
+  <p id="deeme"></p>
+  <h4 style="margin-bottom: 0;">Each time you click this button new number is generated (random number)</h4>
+
+  <button id="random" style="margin-left: 50px;"
+    onclick="document.getElementById('deemela').innerHTML = Math.random();">Click Me!</button>
+  <p style="display: inline-block; margin-left: 25px;" id="deemela"></p>
+
+
+
+<p id="bool"></p>
+
+
+
+<p></p>
+
+
+<br><br><br><br><br><br><br><br><br> -->
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

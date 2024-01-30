@@ -1,0 +1,102 @@
+body {
+  background-color: rgba(5, 16, 61, 0.548);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  margin: 0 100px;
+}
+* {
+  font-size: 2vw;
+}
+
+form {
+  width: 50vw;
+  margin: auto;
+}
+
+.reg {
+  width: 50vw;
+  text-align: center;
+  font-size: 50px;
+}
+
+.fil {
+  width: 50vw;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 50vw;
+  background-color: rgb(1, 5, 32);
+  padding: 5px 8px;
+  /* outline: none; */
+}
+
+
+input[type="file"] {
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+input[type="password"] {
+  width: 50vw;
+  background-color: rgb(1, 5, 32);
+  padding: 5px 8px;
+}
+
+input[type="number"] {
+  width: 50vw;
+  background-color: rgb(1, 5, 32);
+  padding: 5px 8px;
+}
+
+hr {
+  width: 50vw;
+  margin-left: 0;
+}
+
+select {
+  width: 52vw;
+  background-color: rgb(1, 5, 32);
+  padding: 8px;
+  cursor: pointer;
+}
+
+textarea {
+  background-color: rgb(1, 5, 32);
+  padding: 8px;
+  width: 50vw;
+}
+
+#btn {
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+#btn button:hover {
+  box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+  transition: 0.5s;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* #random {
+  cursor: pointer;
+  color: black;
+  transition: 0.5s;
+  background-color: rgba(255, 235, 205, 0.178);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#random:hover {
+  box-shadow: 0 0 5px 5px rgb(0, 189, 247);
+  transition: 0.5s;
+}
+#deemela {
+  background-color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 3px;
+} */
